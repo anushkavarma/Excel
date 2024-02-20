@@ -1,4 +1,4 @@
-# Project 1
+# Project 1 Elements
 I polished my Microsoft Excel skills for topics including Pivot Tables, a variety of formulas, XLOOKUP, conditional formatting, charts, and cleaning data. All of these can be found as files in this repository and I have shown the formulas used and the explanations for what my goal for each of these were, such as finding the corresponding email for an employee.
 
 I also completed a project in Excel for bike sales, including cleaning data, clarifying and simplifying the data, and creating pivot tables, charts, and a dashboard to visualize the data. I have also logged the steps taken, formulas and functions used, and the purpose and result of each of my steps.
@@ -57,8 +57,8 @@ I created a bar chart of products sold per month, a line graph with sales per mo
 ### Cleaning Data
 For a dataset about presidents, I cleaned the data to **remove duplicates**, using **Upper** and **Proper** to fix capitalized names, **Find and Replace** to correct issues in party names, **Trim** to remove unnecessary spaces, and changed **date formats** to standardize all date formats.
 
-# Project 2
-The goal of this project was to take data, clean it, and create an interactive dashboard using that data. The dataset contained bike sales customer data.
+# Full Project 1
+The goal of this project was to take data, clean it, and create an interactive dashboard using that data. The dataset contained bike sales customer data. For this project, I included a log of the steps I took in the Excel file.
 
 ### Cleaning the data
 I **removed duplicates**, used **find and replace** to clarify data such as marital status and gender to change letters including M, S, and F into Married, Single, Male, and Female.
