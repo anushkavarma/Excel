@@ -1,4 +1,4 @@
-# Bike Sales Project
+# Employee Data Project
 
 ## Project Elements
 I polished my Microsoft Excel skills for topics including Pivot Tables, a variety of formulas, XLOOKUP, conditional formatting, charts, and cleaning data. All of these can be found as files in this repository and I have shown the formulas used and the explanations for what my goal for each of these were, such as finding the corresponding email for an employee.
@@ -59,7 +59,7 @@ I created a bar chart of products sold per month, a line graph with sales per mo
 ### Cleaning Data
 For a dataset about presidents, I cleaned the data to **remove duplicates**, using **Upper** and **Proper** to fix capitalized names, **Find and Replace** to correct issues in party names, **Trim** to remove unnecessary spaces, and changed **date formats** to standardize all date formats.
 
-# Full Project 1
+# Bike Sales Project
 The goal of this project was to take data, clean it, and create an interactive dashboard using that data. The dataset contained bike sales customer data. For this project, I included a log of the steps I took in the Excel file.
 
 ### Cleaning the data
@@ -78,3 +78,26 @@ These pivot tables were used to make the dashboard.
 
 ### Dashboard
 I designed a dashboard and then included **slicers** for marital status, region, and education applied to all charts in order to see how the results change based on certain demographic information, with the ability to see this data visualized in charts on the dashboard.
+
+# Netflix Movies & TV Shows Project
+
+## About the Data
+The data used was for all titles on Netflix, and was sourced from Kaggle. I then cleaned and organized this data in Excel (found as "netflix_titles_edited.xlsx") to clean and make the data easier to use in Tableau. The Tableau visualizations part of this project can be found in my Tableau repository.
+
+## Cleaning and Organizing the Data
+For this project, I had to clean the netflix_titles data, and I created a sheet for the log of my steps. This is titled "netflix_titles_edited" in the projects folder.
+
+1. First, I needed to **remove duplicates** from the show_id column, since that contained unique values of the Netflix titles.
+
+2. Next, to clean the data, I used a **filter** for each column to see what may look out of place.
+a. I found some duration data in the "ratings" column, which I removed manually.
+b. There were three titles that were named after dates, such as "15 August," that had converted into date format in Excel, so I changed those three after researching them online.
+c. I also found some commas before countries in the "country" column, so I removed those two manually. Since there were up to five countries in that column for each title, I used the **text to column** to separate the country values into five columns, and **pasted as values** so that they were not listed as formulas. I did this with the assumption that the first country was the country of origin, and it would make my future visualizations organized when I look at countries of origin for titles.
+
+3. To make the data make more sense for my future Tableau visualizations, I renamed "listed_in" to "genre." Since the genre column contained up to three genres, I used **text to column** to separate the values into three columns, and **pasted them as values** so that they were not listed as formulas.
+
+4. I then **filtered** the "type" column to separate movies and TV shows, and created separate sheets for each. Since I want to look at movie and TV data separately in Tableau, this is useful to do.
+
+5. For movies, in the "duration" column, I replaced "min" (minutes) to blanks, so that I could have the data as numbers, and hence a measure, instead of text in Tableau. For TV shows, I renamed "duration" as "no_of_seasons" so that it made more sense in a TV show context.
+
+7. The data was then ready to be used in Tableau, and my visualizations can be found in my Tableau repository.
